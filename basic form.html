@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title> Form</title>
+    </head>
+    <body>
+        <form>
+        <fieldset>
+          <legend> Enquiry </legend>
+        Name: <input type="text" value="" name="name" placeholder="Name" autofocus=""/>
+        <br/>
+        <br/>
+        Gender: <input type="radio" name="Gender" value="M"/>Male
+                <input type="radio" name="Gender" value="F" />Female
+        <br/>
+        <br/>       
+        E-mail: <input type="email" name="email" placeholder="E-mail" autofocu=""/>
+        <br/>
+        <br/>
+        Password: <input type="password" name="password" placeholder="password"/>
+        <br/>
+        <br/>
+        Age: <input type="number" name="Age" required/>
+        <br/>
+        <br/>
+       Select:  <select> 
+             <option>--IT Department--</option>
+              <optgroup label="BSIT-22"> 
+              <option>Roll no 01 </option>
+              <option>Roll no 02</option>
+              <option>Roll no 03</option>
+            </optgroup>
+            <optgroup label="BSIT21">
+                <option>Roll no 1 </option>
+                <option>Roll no 2 </option>
+                <option>Roll no 3 </option>
+            </optgroup>
+              
+         </select>
+        <br/>
+        <br/>
+          Hobby: <input type="checkbox"  name="Hobby[] "/> Reading
+                 <input type="checkbox" name="Hobby []"/>Singing
+                 <input type="checkbox" name="Hobby[]"/>Dancing
+        <br/>
+        <br/>
+        Upload marksheet: <input type="file" name="file" />
+        <br/>
+        <br/>
+        Date of submission: <input type="datetime-local"/>
+        <br/>
+        <br/>
+        <input type="Submit" value="Submit"/> 
+        <input type="Reset" />
+    </fieldset>  
+        </form>
+    </body>
+</html>
